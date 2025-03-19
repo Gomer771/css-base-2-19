@@ -1,0 +1,100 @@
+p {
+    color: red;
+    border: 4px dotted red;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: red;
+    border-left-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#para1 {
+    color: rgb(6, 170, 6);
+}
+.colortext {
+    color: blue;
+}
+body {
+    background-color: yellow;
+    background-image: url(assets/background.avif);
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+h1 {
+    background-color: lightblue;
+    margin-left: 20px;
+    margin: 20px 40px;
+    margin: auto;
+    padding: 30px;
+    padding: 40px 10px;
+    height: 100px;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 50px;
+
+}
+.text {
+    width: 200px;
+    border: 2px solid red;
+    padding: 25px;
+    margin-left: 25px;
+    outline: 5px solid black;
+
+    position: sticky;
+    top: 50px;
+    left:10px;
+    position: relative;
+    position:absolute;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:visited {
+    color: green;
+}
+.intro {
+    text-indent: 20px;
+}
+
+ul { 
+    list-style-type:squarte;
+    
+    list-style-type:none;
+}
+
+ol{
+    list-style-type:uperr-roman;
+}
+
+table, th, td {
+    border:2px solid green;
+}
+table{
+    border-collapse:collapse;
+    width:200px;
+}
+td{
+    text-align:right;
+}
+th{
+    padding:15px;
+    background-color: aquamarine;
+}
+
+li{
+    display: inline;
+}
+strong{
+    display:block;
+}
