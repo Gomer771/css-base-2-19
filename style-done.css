@@ -11,7 +11,9 @@ p {
     font-weight: bold;
 }
 #para1 {
-    color: rgb(6, 170, 6);
+    color: green;
+    position: absolute;
+    top: 50px;
 }
 .colortext {
     color: blue;
@@ -37,7 +39,14 @@ h1 {
     font-family: Verdana;
     font-style: italic;
     font-size: 50px;
-
+    /* visibility: hidden;
+    display: none; */
+    position: sticky;
+    top: 50px;
+    /* left: 10px; */
+    position: relative;
+    position: absolute;
+    z-index: -2;
 }
 .text {
     width: 200px;
@@ -45,12 +54,6 @@ h1 {
     padding: 25px;
     margin-left: 25px;
     outline: 5px solid black;
-
-    position: sticky;
-    top: 50px;
-    left:10px;
-    position: relative;
-    position:absolute;
 }
 a {
     text-decoration: none;
@@ -67,34 +70,37 @@ a:visited {
     text-indent: 20px;
 }
 
-ul { 
-    list-style-type:squarte;
-    
-    list-style-type:none;
+ul {
+  list-style-type: square;  
+  list-style-type: none;
 }
 
 ol{
-    list-style-type:uperr-roman;
+    list-style-type: upper-roman;
 }
 
-table, th, td {
-    border:2px solid green;
+table, th, td{
+    border: 2px solid green;
 }
 table{
-    border-collapse:collapse;
-    width:200px;
+    border-collapse: collapse;
+    width: 200px;
 }
-td{
-    text-align:right;
+td {
+    text-align: right;
 }
 th{
-    padding:15px;
-    background-color: aquamarine;
+    padding: 15px;
+    background-color: lightblue;
 }
-
 li{
     display: inline;
 }
 strong{
-    display:block;
+    display: block
+}
+h2{
+    position: absolute;
+    top: 50px;
+    background-color: aquamarine;
 }
